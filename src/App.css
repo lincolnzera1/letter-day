@@ -62,3 +62,21 @@ body {
     font-size: 1em;
   }
 }
+
+.botao-bonito {
+  background-color: white; /* Cor de fundo correspondente à cor da carta */
+  color: #e03c4a; /* Cor do texto branco */
+  font-size: 16px; /* Tamanho da fonte */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Mostrar cursor de apontar */
+
+  font-weight: bold;
+
+}
+
+.botao-bonito:hover {
+  background-color: #e03c4a; /* Mudar a cor de fundo quando hover */
+}
+
+

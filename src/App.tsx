@@ -1,13 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+
+  const [botao, setBotao] = useState(false);
 
   return (
-    <div className="love-letter-container">
+   <>
+   {botao ?  <div className="love-letter-container">
       <div className="love-letter">
         <div className="love-header">
           <h1>Oi</h1>
@@ -26,7 +26,19 @@ function App() {
           <p>guilherme</p>
         </div>
       </div>
-    </div>
+    </div> : (
+      <div style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        width: "100vw"
+      }}>
+        <button onClick={() => setBotao(true)}>
+          Abrir Carta
+        </button>
+      </div>
+    )}
+   </>
   );
 }
 
