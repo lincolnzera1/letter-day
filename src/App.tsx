@@ -14,7 +14,7 @@ function App() {
         </div>
         <div className="love-body">
           <p>
-            gosto muito de estar com você
+            Gosto muito de estar com você
           </p>
           <p>
           </p>
