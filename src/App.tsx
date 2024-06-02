@@ -14,9 +14,7 @@ function App() {
         </div>
         <div className="love-body">
           <p>
-            Ei, que história é essa de não querer voltar mais? como a gente vai assistir
-            strange things juntim???
-            Te esperando aqui, volte logo.
+            gosto muito de estar com você
           </p>
           <p>
           </p>
